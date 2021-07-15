@@ -1,9 +1,10 @@
 $(document).ready(function () {
   $("form").submit(function () {
-    const form = $(this).attr("class");
+    const form = $(this)[0];
+    const formName = $(this).attr("class");
     const data = $(this).serialize();
 
-    console.debug(`${form} ==> `, data);
+    console.debug(`${formName} ==> `, data);
 
     try {
       $.ajax({
@@ -12,7 +13,7 @@ $(document).ready(function () {
         url: "https://api.ideyou.com.br/mailer/",
         data: data,
         success: function (response) {
-          console.debug(`${form} <== `, response);
+          console.debug(`${formName} <== `, response);
 
           $.bootstrapGrowl(response.message, {
             ele: "body",
@@ -25,6 +26,8 @@ $(document).ready(function () {
             width: "auto",
             stackup_spacing: 10,
           });
+
+          form.reset();
         },
         error: function (request, status, error) {
           console.debug("request => ", request);
