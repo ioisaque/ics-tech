@@ -19,7 +19,7 @@ switch ($status):
     break;
 endswitch;
 
-$url = 'http://cdn.ideyou.com.br/defaults/header.php';
+$url = 'https://cdn.ideyou.com.br/defaults/header.php';
 $data = array(
   'title' => 'ICS Tech - Soluções em TI!',
   'keywords' => 'IdeYou, agência, tecnologia, marketing, marketingdigital, marketing, o, empreendedorismo, digitalmarketing, instagram, socialmedia, business, sucesso, branding, like, digital, socialmediamarketing, negocios, love, hotmart, empreender, dise, a, marketingonline, follow, marketingstrategy, brasil, emprendedores, advertising, rendaextra, design, dinheiro, photography, bhfyp, art, fashion, bhfyp, marketingdigitalbrasil, empreendedor, foco, vendasonline, mktdigital, seo, marketingdeconteudo, redessociales, motiva, m, vendas, entrepreneur, content, copywriting, emprendimiento, publicidad, onlinemarketing, instagood, tiktok, publicidade, copywriter, contentmarketing, print, yourself, original, copywritingtips, c'
