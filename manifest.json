@@ -1,12 +1,11 @@
 {
-    "id": "IcsTech",
-    "name": "Ics Tech",
-    "app_name": "Ics Tech",
-    "short_name": "Ics Tech",
+    "id": "ICSTech",
+    "name": "ICS Tech",
+    "app_name": "ICS Tech",
+    "short_name": "ICS Tech",
     "scope": "./",
     "start_url": "./",
-    "orientation": "portrait",
-    "display": "fullscreen",
+    "display": "standalone",
     "theme_color": "#33CC66",
     "background_color": "#FFFFFF",
     "icons": [
@@ -15,5 +14,6 @@
             "sizes": "64x64",
             "type": "image/png"
         }
-    ]
+    ],
+    "description": "Oferecemos soluções em TI focadas em inovação, eficiência e transformação digital para empresas de diversos setores."
 }
