@@ -6,13 +6,13 @@
     "scope": "./",
     "start_url": "./",
     "display": "standalone",
-    "theme_color": "#33CC66",
+    "theme_color": "#006633",
     "background_color": "#FFFFFF",
     "icons": [
         {
-            "src": "https://cdn.isaque.it/assets/icons/favicon-64.png",
+            "src": "images/ics_logo.svg",
             "sizes": "64x64",
-            "type": "image/png"
+            "type": "image/svg"
         }
     ],
     "description": "Oferecemos soluções em TI focadas em inovação, eficiência e transformação digital para empresas de diversos setores."
