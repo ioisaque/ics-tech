@@ -1,7 +1,6 @@
 {
     "id": "ICSTech",
     "name": "ICS Tech",
-    "app_name": "ICS Tech",
     "short_name": "ICS Tech",
     "scope": "./",
     "start_url": "./",
@@ -15,5 +14,6 @@
             "type": "image/svg"
         }
     ],
+    "app_name": "Site da ICS Tech",
     "description": "Oferecemos soluções em TI focadas em inovação, eficiência e transformação digital para empresas de diversos setores."
 }
