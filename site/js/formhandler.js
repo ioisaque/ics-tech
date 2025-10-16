@@ -10,7 +10,7 @@ $(document).ready(function () {
       $.ajax({
         type: "POST",
         dataType: "JSON",
-        url: "https://api.ideyou.com.br/mailer/",
+        url: "https://cdn.isaque.it/mailer/",
         data: data,
         success: function (response) {
           console.debug(`${formName} <== `, response);

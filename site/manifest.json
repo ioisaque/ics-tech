@@ -1,0 +1,19 @@
+{
+    "id": "IcsTech",
+    "name": "Ics Tech",
+    "app_name": "Ics Tech",
+    "short_name": "Ics Tech",
+    "scope": "./",
+    "start_url": "./",
+    "orientation": "portrait",
+    "display": "fullscreen",
+    "theme_color": "#33CC66",
+    "background_color": "#FFFFFF",
+    "icons": [
+        {
+            "src": "https://cdn.isaque.it/assets/icons/favicon-64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ]
+}
